@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Reach for the Stars",
+  "version": "0.4.2",
+  "description": "Get a visual representation of how many people you've reached and the size of your impact.",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoTey3hzpaXGF0U+mVJzO9dK9oNCbU2q2UvDKgNKQC2hI1OfWXquxMHsSWsDULAR6iY9orJq7HRYETypmHuCxJQ9+io2hGG4HRgQmLhMLy3367Oi3ijo/lPqMu/cl31hSSUw9XTByyNRtdIe/gz1YQCemEWZ0cdUR587YEHxmQkBK+xlGmTYMhX82/dzz3FcqPmYMQqM2dGDYIUZ5h0DbynQd3xo97IRAI1BnEhZchPYOjO2bKsEaD8kJRujMTa7w1oP6wj5ho0EcY38dz8TwNWu9UfeEQX6TNAmO96r11rEOuxZ6LQtXaGLm4KUywNLghWavLxZqI4FHSz8J8vK9OQIDAQAB",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "action": {
+    "default_title": "Reach for the Stars"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://api.buffer.com/*"
+  ],
+  "icons": {
+    "16": "images/icon-star.png",
+    "48": "images/icon-star.png",
+    "128": "images/icon-star.png"
+  }
+}
